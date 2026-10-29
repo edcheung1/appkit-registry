@@ -110,6 +110,11 @@
           "target": "plugins/designer/server/jobParameters.ts"
         },
         {
+          "path": "registry/designer/server/manifest.ts",
+          "type": "registry:file",
+          "target": "plugins/designer/server/manifest.ts"
+        },
+        {
           "path": "registry/designer/server/outputFileStore.ts",
           "type": "registry:file",
           "target": "plugins/designer/server/outputFileStore.ts"
@@ -213,6 +218,21 @@
           "path": "registry/designer/shared/resultPreview.ts",
           "type": "registry:file",
           "target": "plugins/designer/shared/resultPreview.ts"
+        },
+        {
+          "path": "registry/designer/shared/routes.ts",
+          "type": "registry:file",
+          "target": "plugins/designer/shared/routes.ts"
+        },
+        {
+          "path": "registry/designer/shared/runPayload.ts",
+          "type": "registry:file",
+          "target": "plugins/designer/shared/runPayload.ts"
+        },
+        {
+          "path": "registry/designer/shared/runSummary.ts",
+          "type": "registry:file",
+          "target": "plugins/designer/shared/runSummary.ts"
         },
         {
           "path": "registry/designer/shared/storageConfig.ts",
